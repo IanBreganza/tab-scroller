@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.local
+.vite/
+
+# graphify: keep the report, skip the bulky/derived parts
+graphify-out/cache/
+graphify-out/graph.json
+
+# worktrees (if ever used)
+.claude/worktrees/
